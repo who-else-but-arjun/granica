@@ -166,6 +166,14 @@ Face photo + before-meal plate photo → identity → grounded food boxes → SA
 
 ---
 
+<img width="2258" height="877" alt="2-comparison" src="https://github.com/user-attachments/assets/210cc4be-cdb0-454b-8c0f-33144b7ffe39" />
+<img width="2258" height="867" alt="3-comparison" src="https://github.com/user-attachments/assets/5dfb6404-13e0-49d7-920c-c69cda83ae53" />
+<img width="2258" height="899" alt="6-comparison" src="https://github.com/user-attachments/assets/4e9b983f-3904-4cc0-8f9a-5e7c85256c30" />
+<img width="2258" height="898" alt="5-comparison" src="https://github.com/user-attachments/assets/293dce4b-9681-4031-92a4-7194e0b40421" />
+<img width="2258" height="846" alt="4-comparison" src="https://github.com/user-attachments/assets/6becf5ae-8f0b-4772-a82c-05bc8656eb2e" />
+
+---
+
 ### 2. Face Similarity Matching (Train Gallery Only)
 
 Held-out test faces compared against **train-only gallery** (Kunj, Mithil, Nitish). The test target is never included as a bar in its own comparison.
