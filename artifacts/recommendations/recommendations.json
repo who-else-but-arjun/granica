@@ -1,0 +1,422 @@
+{
+  "service_date": "2026-09-25",
+  "meal": "DINNER",
+  "recommendations": {
+    "aakarsh": {
+      "recommendations": [
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 2,
+          "grams": 240.0
+        },
+        {
+          "item": "Methi Parantha",
+          "category": "bread",
+          "unit": "paratha",
+          "count": 2,
+          "grams": 160.0
+        },
+        {
+          "item": "Shahi Paneer",
+          "category": "curry",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Jalebi rabri",
+          "category": "dessert",
+          "unit": "piece",
+          "count": 2,
+          "grams": 120.0
+        },
+        {
+          "item": "Lemon Water",
+          "category": "drink",
+          "unit": "glass",
+          "count": 1,
+          "grams": 200.0
+        }
+      ],
+      "total_grams": 840.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": false,
+      "reasoning": "The total intake from yesterday was high at 730g during one meal and included a significant portion of Shahi Paneer and Chana Daal. To maintain a balanced and sensible portion for today, I suggested a moderate portion of Chana Daal and Methi Parantha with an inclusion of Shahi Paneer for variety. Two pieces of Jalebi rabri offer a dessert option without overindulgence, and one glass of Lemon Water is included for hydration, ensuring the total remains around 450-750g.",
+      "repaired": true
+    },
+    "archit": {
+      "recommendations": [
+        {
+          "item": "Chicken Hyderabadi Biryani",
+          "category": "rice",
+          "unit": "ladle",
+          "count": 2,
+          "grams": 260.0
+        },
+        {
+          "item": "Veg pulav",
+          "category": "rice",
+          "unit": "ladle",
+          "count": 2,
+          "grams": 260.0
+        },
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Plain roti + Butter Roti",
+          "category": "bread",
+          "unit": "roti",
+          "count": 3,
+          "grams": 135.0
+        },
+        {
+          "item": "Jalebi rabri",
+          "category": "dessert",
+          "unit": "piece",
+          "count": 1,
+          "grams": 60.0
+        }
+      ],
+      "total_grams": 835.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": false,
+      "reasoning": "The historical intake suggests heavy recent consumption of Chicken Hyderabadi Biryani and Chana Daal, so recommendations include a moderate serving of both while ensuring variety. A balance of rice, dal, and bread is provided, with a modest dessert for a satisfying dinner under 750g.",
+      "repaired": true
+    },
+    "arjun": {
+      "recommendations": [
+        {
+          "item": "Chicken Hyderabadi Biryani",
+          "category": "rice",
+          "unit": "ladle",
+          "count": 2,
+          "grams": 260.0
+        },
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Shahi Paneer",
+          "category": "curry",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Methi Parantha",
+          "category": "bread",
+          "unit": "roti",
+          "count": 2,
+          "grams": 90.0
+        },
+        {
+          "item": "Jalebi rabri",
+          "category": "dessert",
+          "unit": "piece",
+          "count": 1,
+          "grams": 60.0
+        }
+      ],
+      "total_grams": 650.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": true,
+      "reasoning": "The past intake shows a heavier consumption of Chana Daal and excessive portions of Chicken Hyderabadi Biryani recently, prompting a moderate recommendation focusing on variation and balanced portions. Each item is chosen to bring total intake closer to the target 450-750g range while providing enough diversity in the meal.",
+      "repaired": true
+    },
+    "garv": {
+      "recommendations": [
+        {
+          "item": "Chicken Hyderabadi Biryani",
+          "category": "rice",
+          "unit": "ladle",
+          "count": 2,
+          "grams": 260.0
+        },
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Methi Parantha",
+          "category": "bread",
+          "unit": "paratha",
+          "count": 2,
+          "grams": 160.0
+        },
+        {
+          "item": "Jalebi rabri",
+          "category": "dessert",
+          "unit": "piece",
+          "count": 1,
+          "grams": 60.0
+        },
+        {
+          "item": "Lemon Water",
+          "category": "drink",
+          "unit": "glass",
+          "count": 1,
+          "grams": 200.0
+        }
+      ],
+      "total_grams": 800.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": false,
+      "reasoning": "The previous intake includes several heavy meals, especially high portions of Veg Pulav and Chana Daal, which suggests moderating portions today. Chicken Hyderabadi Biryani is recommended in ladles to keep it light yet filling. Chana Daal is kept to a single katori for variety and balance. Methi Parantha is doubled for a carb component while allowing for moderate indulgence in dessert with one Jalebi rabri. A glass of Lemon Water is suggested to stay hydrated.",
+      "repaired": true
+    },
+    "kunj": {
+      "recommendations": [
+        {
+          "item": "Veg pulav",
+          "category": "rice",
+          "unit": "bowl",
+          "count": 2,
+          "grams": 360.0
+        },
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Chutney",
+          "category": "chutney_pickle",
+          "unit": "tablespoon",
+          "count": 2,
+          "grams": 30.0
+        },
+        {
+          "item": "Lemon Water",
+          "category": "drink",
+          "unit": "glass",
+          "count": 1,
+          "grams": 200.0
+        }
+      ],
+      "total_grams": 710.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": true,
+      "reasoning": "Yesterday's intake was relatively high, especially with Chicken Hyderabadi Biryani and Shahi Paneer. To promote variety, Veg Pulav is recommended to balance the rice intake while reducing the portions of dal for moderation and trying to keep the total near 450-750 grams.",
+      "repaired": true
+    },
+    "mithil": {
+      "recommendations": [
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 2,
+          "grams": 240.0
+        },
+        {
+          "item": "Shahi Paneer",
+          "category": "curry",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Methi Parantha",
+          "category": "bread",
+          "unit": "paratha",
+          "count": 1,
+          "grams": 80.0
+        },
+        {
+          "item": "Lemon Water",
+          "category": "drink",
+          "unit": "glass",
+          "count": 1,
+          "grams": 200.0
+        }
+      ],
+      "total_grams": 640.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": true,
+      "reasoning": "The student had a heavy intake yesterday with two meals over 600 grams. Thus, the portions are reduced overall while still including protein (Chana Daal), a curry (Shahi Paneer), a bread (Methi Parantha), and a drink (Lemon Water) for variety and balanced nutrition.",
+      "repaired": true
+    },
+    "nitish": {
+      "recommendations": [
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Veg pulav",
+          "category": "rice",
+          "unit": "katori",
+          "count": 2,
+          "grams": 180.0
+        },
+        {
+          "item": "Shahi Paneer",
+          "category": "curry",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Plain roti + Butter Roti",
+          "category": "bread",
+          "unit": "roti",
+          "count": 2,
+          "grams": 90.0
+        },
+        {
+          "item": "Lemon Water",
+          "category": "drink",
+          "unit": "glass",
+          "count": 1,
+          "grams": 200.0
+        }
+      ],
+      "total_grams": 710.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": true,
+      "reasoning": "Given the student's recent heavy intake of Chana Daal and Biryani, we recommend lighter portions. Including more variety and balancing rice and dal with some bread and a drink keeps the total intake manageable in the 450-750 grams range.",
+      "repaired": true
+    },
+    "takshay": {
+      "recommendations": [
+        {
+          "item": "Chicken Hyderabadi Biryani",
+          "category": "rice",
+          "unit": "ladle",
+          "count": 2,
+          "grams": 260.0
+        },
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Shahi Paneer",
+          "category": "curry",
+          "unit": "katori",
+          "count": 1,
+          "grams": 120.0
+        },
+        {
+          "item": "Methi Parantha",
+          "category": "bread",
+          "unit": "paratha",
+          "count": 1,
+          "grams": 80.0
+        },
+        {
+          "item": "Jalebi rabri",
+          "category": "dessert",
+          "unit": "piece",
+          "count": 1,
+          "grams": 60.0
+        },
+        {
+          "item": "Lemon Water",
+          "category": "drink",
+          "unit": "glass",
+          "count": 1,
+          "grams": 200.0
+        }
+      ],
+      "total_grams": 840.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": false,
+      "reasoning": "Prior intake suggests a recent heavy consumption of carbohydrates (Chicken Biryani, Veg pulav). Therefore, I recommend a moderate quantity of Chicken Hyderabadi Biryani and light portions of protein (Chana Daal, Shahi Paneer) and carbs (Methi Parantha) for variety and balance. I included Jalebi rabri as a dessert considering yesterday's significant intake of sweets, while Lemon Water provides hydration.",
+      "repaired": true
+    },
+    "vaibhav": {
+      "recommendations": [
+        {
+          "item": "Chana Daal",
+          "category": "dal",
+          "unit": "bowl",
+          "count": 1,
+          "grams": 200.0
+        },
+        {
+          "item": "Veg pulav",
+          "category": "rice",
+          "unit": "bowl",
+          "count": 1,
+          "grams": 180.0
+        },
+        {
+          "item": "Methi Parantha",
+          "category": "bread",
+          "unit": "paratha",
+          "count": 1,
+          "grams": 80.0
+        },
+        {
+          "item": "Jalebi rabri",
+          "category": "dessert",
+          "unit": "piece",
+          "count": 1,
+          "grams": 60.0
+        },
+        {
+          "item": "Lemon Water",
+          "category": "drink",
+          "unit": "glass",
+          "count": 1,
+          "grams": 200.0
+        }
+      ],
+      "total_grams": 720.0,
+      "daily_target_band": [
+        450.0,
+        750.0
+      ],
+      "within_band": true,
+      "reasoning": "The student had a heavy intake in previous meals (totaling around 650g and 535g), warranting a reduction in portion sizes for today. A balanced selection provides variety, while keeping total weight moderate. The recommendation totals around 450g.",
+      "repaired": true
+    }
+  }
+}

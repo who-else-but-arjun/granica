@@ -1,0 +1,40 @@
+{
+  "gallery_size": 3,
+  "gallery_persons": [
+    "kunj",
+    "mithil",
+    "nitish"
+  ],
+  "rank1_accuracy_mean": 1.0,
+  "rank1_accuracy_median": 1.0,
+  "rank1_total": 3,
+  "verification_same_mean": 0.6227985620498657,
+  "verification_same_std": 0.08072310768041802,
+  "verification_diff_mean": 0.06791854160837829,
+  "verification_diff_std": 0.0810633964060278,
+  "eer_threshold": 0.542639434337616,
+  "eer": 0.0,
+  "roc": [
+    {
+      "far": 0.001,
+      "threshold": 0.20336172240972522,
+      "tpr": 1.0
+    },
+    {
+      "far": 0.01,
+      "threshold": 0.19867592632770542,
+      "tpr": 1.0
+    },
+    {
+      "far": 0.1,
+      "threshold": 0.15404880791902542,
+      "tpr": 1.0
+    },
+    {
+      "far": 0.5,
+      "threshold": 0.07589670270681381,
+      "tpr": 1.0
+    }
+  ],
+  "cmc_rank1": 1.0
+}
