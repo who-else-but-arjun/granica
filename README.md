@@ -96,32 +96,8 @@ Face photo + before-meal plate photo → identity → grounded food boxes → SA
 ---
 
 ## Pipeline Architecture
+<img width="1920" height="1080" alt="Frame 2147207932 (1)" src="https://github.com/user-attachments/assets/42d16ea7-003c-4093-a0f3-a367e7d9c184" />
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         GRAINICA / SAVOR PIPELINE                          │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐                 │
-│  │  FACE ID     │    │  GROUNDING   │    │ SEGMENTATION │                 │
-│  │  (InsightFace)│───▶│  (GPT-4o     │───▶│  (MobileSAM) │                 │
-│  │  buffalo_l   │    │   Vision)    │    │              │                 │
-│  └──────────────┘    └──────────────┘    └──────────────┘                 │
-│         │                   │                   │                         │
-│         ▼                   ▼                   ▼                         │
-│  ┌────────────────────────────────────────────────────────────────────┐   │
-│  │                    PER-CATEGORY WEIGHT MODELS                      │   │
-│  │         grams = a × pixels + b   (fitted on train split)           │   │
-│  └────────────────────────────────────────────────────────────────────┘   │
-│         │                   │                   │                         │
-│         ▼                   ▼                   ▼                         │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐                 │
-│  │ CONSUMPTION  │    │ RECOMMENDER  │    │  LIVE DEMO   │                 │
-│  │  (pre − post)│    │  (GPT-4o)    │    │ (Streamlit)  │                 │
-│  └──────────────┘    └──────────────┘    └──────────────┘                 │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
 ### Detailed Stage Descriptions
 
@@ -199,12 +175,6 @@ Held-out test faces compared against **train-only gallery** (Kunj, Mithil, Nitis
 | **Kunj** | ![kunj](artifacts/visualizations/face_similarity/test_vs_train/kunj-230103056-test_vs_train_gallery.png) |
 | **Mithil** | ![mithil](artifacts/visualizations/face_similarity/test_vs_train/mithil-230103077-test_vs_train_gallery.png) |
 | **Nitish** | ![nitish](artifacts/visualizations/face_similarity/test_vs_train/nitish-230103022-test_vs_train_gallery.png) |
-| **Aakarsh** | ![aakarsh](artifacts/visualizations/face_similarity/test_vs_train/aakarsh-230102122-test_vs_train_gallery.png) |
-| **Archit** | ![archit](artifacts/visualizations/face_similarity/test_vs_train/archit-230101010-test_vs_train_gallery.png) |
-| **Arjun** | ![arjun](artifacts/visualizations/face_similarity/test_vs_train/arjun-230102125-test_vs_train_gallery.png) |
-| **Garv** | ![garv](artifacts/visualizations/face_similarity/test_vs_train/garv-230104044-test_vs_train_gallery.png) |
-| **Takshay** | ![takshay](artifacts/visualizations/face_similarity/test_vs_train/takshay-230102111-test_vs_train_gallery.png) |
-| **Vaibhav** | ![vaibhav](artifacts/visualizations/face_similarity/test_vs_train/vaibhav-230103066-test_vs_train_gallery.png) |
 
 **Face Metrics Summary** (`artifacts/faces/face_metrics.json`):
 - **Gallery size:** 3 persons (train only)
@@ -220,17 +190,7 @@ Per-category linear model fitted on **train split only** (scale-anchored allocat
 
 ![rice_regression](artifacts/visualizations/regression/rice_pixel_vs_weight.png)
 
-| Category | n | Slope | Intercept | R² | MAE (g) | Used |
-|----------|---|-------|-----------|-----|---------|------|
-| **rice** | 4 | 0.00381 | 49.42 | **0.933** | 40.70 | ✅ |
-| dal | 2 | — | 213.90 | 0.000 | 37.20 | ❌ (global) |
-| curry | 1 | — | 183.90 | 0.000 | 0.00 | ❌ (global) |
-| bread | 2 | — | 149.45 | 0.000 | 75.05 | ❌ (global) |
-| dessert | 2 | — | 109.30 | 0.000 | 19.80 | ❌ (global) |
-| chutney_pickle | 1 | — | 77.90 | 0.000 | 0.00 | ❌ (global) |
-| **__global__** | 8 | 0.00260 | 45.44 | — | 35.05 | ✅ |
-
-> Only **rice** had ≥4 training points and was used directly. All other categories fall back to the pooled `__global__` model.
+> Only **rice** had ≥4 training points and was used directly.
 
 ---
 
@@ -252,24 +212,6 @@ Generated from `artifacts/recommendations/recommendations.json` — **validated,
 
 **Reasoning example (Arjun):**
 > *"The past intake shows a heavier consumption of Chana Daal and excessive portions of Chicken Hyderabadi Biryani recently, prompting a moderate recommendation focusing on variation and balanced portions. Each item is chosen to bring total intake closer to the target 450-750g range while providing enough diversity in the meal."*
-
----
-
-### 5. Recommendation vs. Historical Consumption
-
-Each chart compares the **validated LLM recommendation** (serving counts) with the student's **average taken grams** across mock history meals.
-
-| Student | Chart |
-|---------|-------|
-| Aakarsh | ![aakarsh](artifacts/visualizations/recommendation_history/aakarsh_recommendation_vs_history.png) |
-| Archit | ![archit](artifacts/visualizations/recommendation_history/archit_recommendation_vs_history.png) |
-| Arjun | ![arjun](artifacts/visualizations/recommendation_history/arjun_recommendation_vs_history.png) |
-| Garv | ![garv](artifacts/visualizations/recommendation_history/garv_recommendation_vs_history.png) |
-| Kunj | ![kunj](artifacts/visualizations/recommendation_history/kunj_recommendation_vs_history.png) |
-| Mithil | ![mithil](artifacts/visualizations/recommendation_history/mithil_recommendation_vs_history.png) |
-| Nitish | ![nitish](artifacts/visualizations/recommendation_history/nitish_recommendation_vs_history.png) |
-| Takshay | ![takshay](artifacts/visualizations/recommendation_history/takshay_recommendation_vs_history.png) |
-| Vaibhav | ![vaibhav](artifacts/visualizations/recommendation_history/vaibhav_recommendation_vs_history.png) |
 
 ---
 
