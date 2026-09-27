@@ -194,11 +194,17 @@ Face photo + before-meal plate photo → identity → grounded food boxes → SA
 
 Held-out test faces compared against **train-only gallery** (Kunj, Mithil, Nitish). The test target is never included as a bar in its own comparison.
 
-| Student | Similarity Chart |
-|---------|------------------|
-| **Kunj** | ![kunj](artifacts/visualizations/face_similarity/kunj-230103056-test_similarity.png) |
-| **Mithil** | ![mithil](artifacts/visualizations/face_similarity/mithil-230103077-test_similarity.png) |
-| **Nitish** | ![nitish](artifacts/visualizations/face_similarity/nitish-230103022-test_similarity.png) |
+| Student | Similarity Chart (Test vs Train Gallery) |
+|---------|------------------------------------------|
+| **Kunj** | ![kunj](artifacts/visualizations/face_similarity/test_vs_train/kunj-230103056-test_vs_train_gallery.png) |
+| **Mithil** | ![mithil](artifacts/visualizations/face_similarity/test_vs_train/mithil-230103077-test_vs_train_gallery.png) |
+| **Nitish** | ![nitish](artifacts/visualizations/face_similarity/test_vs_train/nitish-230103022-test_vs_train_gallery.png) |
+| **Aakarsh** | ![aakarsh](artifacts/visualizations/face_similarity/test_vs_train/aakarsh-230102122-test_vs_train_gallery.png) |
+| **Archit** | ![archit](artifacts/visualizations/face_similarity/test_vs_train/archit-230101010-test_vs_train_gallery.png) |
+| **Arjun** | ![arjun](artifacts/visualizations/face_similarity/test_vs_train/arjun-230102125-test_vs_train_gallery.png) |
+| **Garv** | ![garv](artifacts/visualizations/face_similarity/test_vs_train/garv-230104044-test_vs_train_gallery.png) |
+| **Takshay** | ![takshay](artifacts/visualizations/face_similarity/test_vs_train/takshay-230102111-test_vs_train_gallery.png) |
+| **Vaibhav** | ![vaibhav](artifacts/visualizations/face_similarity/test_vs_train/vaibhav-230103066-test_vs_train_gallery.png) |
 
 **Face Metrics Summary** (`artifacts/faces/face_metrics.json`):
 - **Gallery size:** 3 persons (train only)
