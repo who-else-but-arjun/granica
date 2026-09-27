@@ -1,0 +1,1850 @@
+{
+  "source": "deterministic menu-constrained mock history",
+  "people": {
+    "aakarsh": {
+      "name": "aakarsh",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 1,
+              "grams": 81.3,
+              "served_grams": 120.0,
+              "taken_grams": 81.3,
+              "wasted_grams": 38.7
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "bhature",
+              "count": 2,
+              "grams": 106.6,
+              "served_grams": 120.0,
+              "taken_grams": 106.6,
+              "wasted_grams": 13.4
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "plate",
+              "count": 1,
+              "grams": 214.4,
+              "served_grams": 300.0,
+              "taken_grams": 214.4,
+              "wasted_grams": 85.6
+            }
+          ],
+          "served_grams": 540.0,
+          "taken_grams": 402.3,
+          "wasted_grams": 137.7,
+          "total_grams": 402.3
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "roti",
+              "count": 1,
+              "grams": 34.8,
+              "served_grams": 45.0,
+              "taken_grams": 34.8,
+              "wasted_grams": 10.2
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "scoop",
+              "count": 1,
+              "grams": 57.4,
+              "served_grams": 60.0,
+              "taken_grams": 57.4,
+              "wasted_grams": 2.6
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 134.8,
+              "served_grams": 180.0,
+              "taken_grams": 134.8,
+              "wasted_grams": 45.2
+            }
+          ],
+          "served_grams": 285.0,
+          "taken_grams": 227.0,
+          "wasted_grams": 58.0,
+          "total_grams": 227.0
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "glass",
+              "count": 1,
+              "grams": 192.2,
+              "served_grams": 200.0,
+              "taken_grams": 192.2,
+              "wasted_grams": 7.8
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "katori",
+              "count": 2,
+              "grams": 159.1,
+              "served_grams": 240.0,
+              "taken_grams": 159.1,
+              "wasted_grams": 80.9
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 264.0,
+              "served_grams": 400.0,
+              "taken_grams": 264.0,
+              "wasted_grams": 136.0
+            }
+          ],
+          "served_grams": 840.0,
+          "taken_grams": 615.3,
+          "wasted_grams": 224.7,
+          "total_grams": 615.3
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "paratha",
+              "count": 1,
+              "grams": 55.0,
+              "served_grams": 80.0,
+              "taken_grams": 55.0,
+              "wasted_grams": 25.0
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "katori",
+              "count": 1,
+              "grams": 63.5,
+              "served_grams": 90.0,
+              "taken_grams": 63.5,
+              "wasted_grams": 26.5
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "piece",
+              "count": 1,
+              "grams": 51.6,
+              "served_grams": 60.0,
+              "taken_grams": 51.6,
+              "wasted_grams": 8.4
+            }
+          ],
+          "served_grams": 230.0,
+          "taken_grams": 170.1,
+          "wasted_grams": 59.9,
+          "total_grams": 170.1
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "roti",
+              "count": 2,
+              "grams": 60.8,
+              "served_grams": 90.0,
+              "taken_grams": 60.8,
+              "wasted_grams": 29.2
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 72.4,
+              "served_grams": 110.0,
+              "taken_grams": 72.4,
+              "wasted_grams": 37.6
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 1,
+              "grams": 98.2,
+              "served_grams": 120.0,
+              "taken_grams": 98.2,
+              "wasted_grams": 21.8
+            }
+          ],
+          "served_grams": 320.0,
+          "taken_grams": 231.4,
+          "wasted_grams": 88.6,
+          "total_grams": 231.4
+        }
+      ]
+    },
+    "archit": {
+      "name": "archit",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "paratha",
+              "count": 1,
+              "grams": 61.8,
+              "served_grams": 80.0,
+              "taken_grams": 61.8,
+              "wasted_grams": 18.2
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "scoop",
+              "count": 1,
+              "grams": 56.0,
+              "served_grams": 60.0,
+              "taken_grams": 56.0,
+              "wasted_grams": 4.0
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "cup",
+              "count": 2,
+              "grams": 235.9,
+              "served_grams": 300.0,
+              "taken_grams": 235.9,
+              "wasted_grams": 64.1
+            }
+          ],
+          "served_grams": 440.0,
+          "taken_grams": 353.7,
+          "wasted_grams": 86.3,
+          "total_grams": 353.7
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "roti",
+              "count": 1,
+              "grams": 40.4,
+              "served_grams": 45.0,
+              "taken_grams": 40.4,
+              "wasted_grams": 4.6
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 175.8,
+              "served_grams": 220.0,
+              "taken_grams": 175.8,
+              "wasted_grams": 44.2
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 382.1,
+              "served_grams": 400.0,
+              "taken_grams": 382.1,
+              "wasted_grams": 17.9
+            }
+          ],
+          "served_grams": 665.0,
+          "taken_grams": 598.3,
+          "wasted_grams": 66.7,
+          "total_grams": 598.3
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bread_slice",
+              "count": 1,
+              "grams": 27.5,
+              "served_grams": 30.0,
+              "taken_grams": 27.5,
+              "wasted_grams": 2.5
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 2,
+              "grams": 216.8,
+              "served_grams": 240.0,
+              "taken_grams": 216.8,
+              "wasted_grams": 23.2
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "bhature",
+              "count": 1,
+              "grams": 40.3,
+              "served_grams": 60.0,
+              "taken_grams": 40.3,
+              "wasted_grams": 19.7
+            }
+          ],
+          "served_grams": 330.0,
+          "taken_grams": 284.6,
+          "wasted_grams": 45.4,
+          "total_grams": 284.6
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "katori",
+              "count": 2,
+              "grams": 169.2,
+              "served_grams": 180.0,
+              "taken_grams": 169.2,
+              "wasted_grams": 10.8
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "cup",
+              "count": 2,
+              "grams": 143.5,
+              "served_grams": 160.0,
+              "taken_grams": 143.5,
+              "wasted_grams": 16.5
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 149.7,
+              "served_grams": 200.0,
+              "taken_grams": 149.7,
+              "wasted_grams": 50.3
+            }
+          ],
+          "served_grams": 540.0,
+          "taken_grams": 462.4,
+          "wasted_grams": 77.6,
+          "total_grams": 462.4
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 130.6,
+              "served_grams": 200.0,
+              "taken_grams": 130.6,
+              "wasted_grams": 69.4
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "naan",
+              "count": 1,
+              "grams": 75.5,
+              "served_grams": 90.0,
+              "taken_grams": 75.5,
+              "wasted_grams": 14.5
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "piece",
+              "count": 1,
+              "grams": 81.8,
+              "served_grams": 100.0,
+              "taken_grams": 81.8,
+              "wasted_grams": 18.2
+            }
+          ],
+          "served_grams": 390.0,
+          "taken_grams": 287.9,
+          "wasted_grams": 102.1,
+          "total_grams": 287.9
+        }
+      ]
+    },
+    "arjun": {
+      "name": "arjun",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 153.8,
+              "served_grams": 200.0,
+              "taken_grams": 153.8,
+              "wasted_grams": 46.2
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 157.8,
+              "served_grams": 180.0,
+              "taken_grams": 157.8,
+              "wasted_grams": 22.2
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 116.8,
+              "served_grams": 120.0,
+              "taken_grams": 116.8,
+              "wasted_grams": 3.2
+            }
+          ],
+          "served_grams": 500.0,
+          "taken_grams": 428.4,
+          "wasted_grams": 71.6,
+          "total_grams": 428.4
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "katori",
+              "count": 1,
+              "grams": 86.9,
+              "served_grams": 120.0,
+              "taken_grams": 86.9,
+              "wasted_grams": 33.1
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 304.3,
+              "served_grams": 360.0,
+              "taken_grams": 304.3,
+              "wasted_grams": 55.7
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "cup",
+              "count": 1,
+              "grams": 123.8,
+              "served_grams": 150.0,
+              "taken_grams": 123.8,
+              "wasted_grams": 26.2
+            }
+          ],
+          "served_grams": 630.0,
+          "taken_grams": 515.0,
+          "wasted_grams": 115.0,
+          "total_grams": 515.0
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "scoop",
+              "count": 1,
+              "grams": 60.0,
+              "served_grams": 60.0,
+              "taken_grams": 60.0,
+              "wasted_grams": 0.0
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "paratha",
+              "count": 2,
+              "grams": 126.3,
+              "served_grams": 160.0,
+              "taken_grams": 126.3,
+              "wasted_grams": 33.7
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "teaspoon",
+              "count": 1,
+              "grams": 4.1,
+              "served_grams": 5.0,
+              "taken_grams": 4.1,
+              "wasted_grams": 0.9
+            }
+          ],
+          "served_grams": 225.0,
+          "taken_grams": 190.4,
+          "wasted_grams": 34.6,
+          "total_grams": 190.4
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "glass",
+              "count": 2,
+              "grams": 275.5,
+              "served_grams": 400.0,
+              "taken_grams": 275.5,
+              "wasted_grams": 124.5
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 299.6,
+              "served_grams": 400.0,
+              "taken_grams": 299.6,
+              "wasted_grams": 100.4
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 94.1,
+              "served_grams": 130.0,
+              "taken_grams": 94.1,
+              "wasted_grams": 35.9
+            }
+          ],
+          "served_grams": 930.0,
+          "taken_grams": 669.2,
+          "wasted_grams": 260.8,
+          "total_grams": 669.2
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "katori",
+              "count": 1,
+              "grams": 62.6,
+              "served_grams": 90.0,
+              "taken_grams": 62.6,
+              "wasted_grams": 27.4
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "paratha",
+              "count": 2,
+              "grams": 109.5,
+              "served_grams": 160.0,
+              "taken_grams": 109.5,
+              "wasted_grams": 50.5
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "naan",
+              "count": 1,
+              "grams": 80.9,
+              "served_grams": 90.0,
+              "taken_grams": 80.9,
+              "wasted_grams": 9.1
+            }
+          ],
+          "served_grams": 340.0,
+          "taken_grams": 253.0,
+          "wasted_grams": 87.0,
+          "total_grams": 253.0
+        }
+      ]
+    },
+    "garv": {
+      "name": "garv",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "bread_slice",
+              "count": 2,
+              "grams": 42.4,
+              "served_grams": 60.0,
+              "taken_grams": 42.4,
+              "wasted_grams": 17.6
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bread_slice",
+              "count": 2,
+              "grams": 57.5,
+              "served_grams": 60.0,
+              "taken_grams": 57.5,
+              "wasted_grams": 2.5
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 96.2,
+              "served_grams": 120.0,
+              "taken_grams": 96.2,
+              "wasted_grams": 23.8
+            }
+          ],
+          "served_grams": 240.0,
+          "taken_grams": 196.1,
+          "wasted_grams": 43.9,
+          "total_grams": 196.1
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "naan",
+              "count": 1,
+              "grams": 59.4,
+              "served_grams": 90.0,
+              "taken_grams": 59.4,
+              "wasted_grams": 30.6
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "glass",
+              "count": 2,
+              "grams": 391.7,
+              "served_grams": 400.0,
+              "taken_grams": 391.7,
+              "wasted_grams": 8.3
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "katori",
+              "count": 1,
+              "grams": 28.9,
+              "served_grams": 30.0,
+              "taken_grams": 28.9,
+              "wasted_grams": 1.1
+            }
+          ],
+          "served_grams": 520.0,
+          "taken_grams": 480.0,
+          "wasted_grams": 40.0,
+          "total_grams": 480.0
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "piece",
+              "count": 1,
+              "grams": 43.0,
+              "served_grams": 60.0,
+              "taken_grams": 43.0,
+              "wasted_grams": 17.0
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 134.8,
+              "served_grams": 200.0,
+              "taken_grams": 134.8,
+              "wasted_grams": 65.2
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bhature",
+              "count": 2,
+              "grams": 109.7,
+              "served_grams": 120.0,
+              "taken_grams": 109.7,
+              "wasted_grams": 10.3
+            }
+          ],
+          "served_grams": 380.0,
+          "taken_grams": 287.5,
+          "wasted_grams": 92.5,
+          "total_grams": 287.5
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 88.7,
+              "served_grams": 120.0,
+              "taken_grams": 88.7,
+              "wasted_grams": 31.3
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "naan",
+              "count": 1,
+              "grams": 67.7,
+              "served_grams": 90.0,
+              "taken_grams": 67.7,
+              "wasted_grams": 22.3
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 249.2,
+              "served_grams": 260.0,
+              "taken_grams": 249.2,
+              "wasted_grams": 10.8
+            }
+          ],
+          "served_grams": 470.0,
+          "taken_grams": 405.6,
+          "wasted_grams": 64.4,
+          "total_grams": 405.6
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bread_slice",
+              "count": 2,
+              "grams": 57.0,
+              "served_grams": 60.0,
+              "taken_grams": 57.0,
+              "wasted_grams": 3.0
+            },
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 252.9,
+              "served_grams": 360.0,
+              "taken_grams": 252.9,
+              "wasted_grams": 107.1
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 72.7,
+              "served_grams": 110.0,
+              "taken_grams": 72.7,
+              "wasted_grams": 37.3
+            }
+          ],
+          "served_grams": 530.0,
+          "taken_grams": 382.6,
+          "wasted_grams": 147.4,
+          "total_grams": 382.6
+        }
+      ]
+    },
+    "kunj": {
+      "name": "kunj",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "bottle",
+              "count": 1,
+              "grams": 492.0,
+              "served_grams": 500.0,
+              "taken_grams": 492.0,
+              "wasted_grams": 8.0
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 1,
+              "grams": 94.9,
+              "served_grams": 120.0,
+              "taken_grams": 94.9,
+              "wasted_grams": 25.1
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bread_slice",
+              "count": 2,
+              "grams": 42.8,
+              "served_grams": 60.0,
+              "taken_grams": 42.8,
+              "wasted_grams": 17.2
+            }
+          ],
+          "served_grams": 680.0,
+          "taken_grams": 629.7,
+          "wasted_grams": 50.3,
+          "total_grams": 629.7
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 166.4,
+              "served_grams": 240.0,
+              "taken_grams": 166.4,
+              "wasted_grams": 73.6
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bhature",
+              "count": 2,
+              "grams": 89.3,
+              "served_grams": 120.0,
+              "taken_grams": 89.3,
+              "wasted_grams": 30.7
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "glass",
+              "count": 2,
+              "grams": 382.1,
+              "served_grams": 400.0,
+              "taken_grams": 382.1,
+              "wasted_grams": 17.9
+            }
+          ],
+          "served_grams": 760.0,
+          "taken_grams": 637.8,
+          "wasted_grams": 122.2,
+          "total_grams": 637.8
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 193.0,
+              "served_grams": 200.0,
+              "taken_grams": 193.0,
+              "wasted_grams": 7.0
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "katori",
+              "count": 1,
+              "grams": 22.4,
+              "served_grams": 30.0,
+              "taken_grams": 22.4,
+              "wasted_grams": 7.6
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "glass",
+              "count": 1,
+              "grams": 144.8,
+              "served_grams": 200.0,
+              "taken_grams": 144.8,
+              "wasted_grams": 55.2
+            }
+          ],
+          "served_grams": 430.0,
+          "taken_grams": 360.2,
+          "wasted_grams": 69.8,
+          "total_grams": 360.2
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "paratha",
+              "count": 2,
+              "grams": 156.0,
+              "served_grams": 160.0,
+              "taken_grams": 156.0,
+              "wasted_grams": 4.0
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "cup",
+              "count": 1,
+              "grams": 56.2,
+              "served_grams": 80.0,
+              "taken_grams": 56.2,
+              "wasted_grams": 23.8
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 355.5,
+              "served_grams": 400.0,
+              "taken_grams": 355.5,
+              "wasted_grams": 44.5
+            }
+          ],
+          "served_grams": 640.0,
+          "taken_grams": 567.7,
+          "wasted_grams": 72.3,
+          "total_grams": 567.7
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 355.5,
+              "served_grams": 400.0,
+              "taken_grams": 355.5,
+              "wasted_grams": 44.5
+            },
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 120.9,
+              "served_grams": 130.0,
+              "taken_grams": 120.9,
+              "wasted_grams": 9.1
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 80.2,
+              "served_grams": 110.0,
+              "taken_grams": 80.2,
+              "wasted_grams": 29.8
+            }
+          ],
+          "served_grams": 640.0,
+          "taken_grams": 556.6,
+          "wasted_grams": 83.4,
+          "total_grams": 556.6
+        }
+      ]
+    },
+    "mithil": {
+      "name": "mithil",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "tablespoon",
+              "count": 2,
+              "grams": 27.4,
+              "served_grams": 30.0,
+              "taken_grams": 27.4,
+              "wasted_grams": 2.6
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "katori",
+              "count": 1,
+              "grams": 72.9,
+              "served_grams": 90.0,
+              "taken_grams": 72.9,
+              "wasted_grams": 17.1
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "roti",
+              "count": 1,
+              "grams": 29.6,
+              "served_grams": 45.0,
+              "taken_grams": 29.6,
+              "wasted_grams": 15.4
+            }
+          ],
+          "served_grams": 165.0,
+          "taken_grams": 129.9,
+          "wasted_grams": 35.1,
+          "total_grams": 129.9
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "roti",
+              "count": 2,
+              "grams": 65.1,
+              "served_grams": 90.0,
+              "taken_grams": 65.1,
+              "wasted_grams": 24.9
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "tablespoon",
+              "count": 2,
+              "grams": 21.3,
+              "served_grams": 30.0,
+              "taken_grams": 21.3,
+              "wasted_grams": 8.7
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 187.4,
+              "served_grams": 220.0,
+              "taken_grams": 187.4,
+              "wasted_grams": 32.6
+            }
+          ],
+          "served_grams": 340.0,
+          "taken_grams": 273.8,
+          "wasted_grams": 66.2,
+          "total_grams": 273.8
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 177.2,
+              "served_grams": 240.0,
+              "taken_grams": 177.2,
+              "wasted_grams": 62.8
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "katori",
+              "count": 2,
+              "grams": 182.3,
+              "served_grams": 240.0,
+              "taken_grams": 182.3,
+              "wasted_grams": 57.7
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 2,
+              "grams": 215.8,
+              "served_grams": 240.0,
+              "taken_grams": 215.8,
+              "wasted_grams": 24.2
+            }
+          ],
+          "served_grams": 720.0,
+          "taken_grams": 575.3,
+          "wasted_grams": 144.7,
+          "total_grams": 575.3
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 343.1,
+              "served_grams": 400.0,
+              "taken_grams": 343.1,
+              "wasted_grams": 56.9
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "bottle",
+              "count": 1,
+              "grams": 342.2,
+              "served_grams": 500.0,
+              "taken_grams": 342.2,
+              "wasted_grams": 157.8
+            },
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 339.9,
+              "served_grams": 360.0,
+              "taken_grams": 339.9,
+              "wasted_grams": 20.1
+            }
+          ],
+          "served_grams": 1260.0,
+          "taken_grams": 1025.2,
+          "wasted_grams": 234.8,
+          "total_grams": 1025.2
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "piece",
+              "count": 1,
+              "grams": 39.9,
+              "served_grams": 60.0,
+              "taken_grams": 39.9,
+              "wasted_grams": 20.1
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 74.2,
+              "served_grams": 100.0,
+              "taken_grams": 74.2,
+              "wasted_grams": 25.8
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "tablespoon",
+              "count": 1,
+              "grams": 13.9,
+              "served_grams": 15.0,
+              "taken_grams": 13.9,
+              "wasted_grams": 1.1
+            }
+          ],
+          "served_grams": 175.0,
+          "taken_grams": 128.0,
+          "wasted_grams": 47.0,
+          "total_grams": 128.0
+        }
+      ]
+    },
+    "nitish": {
+      "name": "nitish",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "roti",
+              "count": 2,
+              "grams": 79.2,
+              "served_grams": 90.0,
+              "taken_grams": 79.2,
+              "wasted_grams": 10.8
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 2,
+              "grams": 235.1,
+              "served_grams": 240.0,
+              "taken_grams": 235.1,
+              "wasted_grams": 4.9
+            },
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 1,
+              "grams": 144.1,
+              "served_grams": 180.0,
+              "taken_grams": 144.1,
+              "wasted_grams": 35.9
+            }
+          ],
+          "served_grams": 510.0,
+          "taken_grams": 458.4,
+          "wasted_grams": 51.6,
+          "total_grams": 458.4
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 236.5,
+              "served_grams": 360.0,
+              "taken_grams": 236.5,
+              "wasted_grams": 123.5
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 2,
+              "grams": 158.6,
+              "served_grams": 240.0,
+              "taken_grams": 158.6,
+              "wasted_grams": 81.4
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "piece",
+              "count": 2,
+              "grams": 108.5,
+              "served_grams": 120.0,
+              "taken_grams": 108.5,
+              "wasted_grams": 11.5
+            }
+          ],
+          "served_grams": 720.0,
+          "taken_grams": 503.6,
+          "wasted_grams": 216.4,
+          "total_grams": 503.6
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 295.4,
+              "served_grams": 400.0,
+              "taken_grams": 295.4,
+              "wasted_grams": 104.6
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "naan",
+              "count": 2,
+              "grams": 131.4,
+              "served_grams": 180.0,
+              "taken_grams": 131.4,
+              "wasted_grams": 48.6
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "cup",
+              "count": 1,
+              "grams": 116.1,
+              "served_grams": 150.0,
+              "taken_grams": 116.1,
+              "wasted_grams": 33.9
+            }
+          ],
+          "served_grams": 730.0,
+          "taken_grams": 542.9,
+          "wasted_grams": 187.1,
+          "total_grams": 542.9
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "katori",
+              "count": 2,
+              "grams": 210.1,
+              "served_grams": 240.0,
+              "taken_grams": 210.1,
+              "wasted_grams": 29.9
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "plate",
+              "count": 1,
+              "grams": 278.0,
+              "served_grams": 300.0,
+              "taken_grams": 278.0,
+              "wasted_grams": 22.0
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 1,
+              "grams": 79.4,
+              "served_grams": 120.0,
+              "taken_grams": 79.4,
+              "wasted_grams": 40.6
+            }
+          ],
+          "served_grams": 660.0,
+          "taken_grams": 567.5,
+          "wasted_grams": 92.5,
+          "total_grams": 567.5
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 377.8,
+              "served_grams": 400.0,
+              "taken_grams": 377.8,
+              "wasted_grams": 22.2
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "cup",
+              "count": 2,
+              "grams": 137.2,
+              "served_grams": 160.0,
+              "taken_grams": 137.2,
+              "wasted_grams": 22.8
+            },
+            {
+              "item": "Chana Daal",
+              "category": "dal",
+              "unit": "katori",
+              "count": 1,
+              "grams": 114.9,
+              "served_grams": 120.0,
+              "taken_grams": 114.9,
+              "wasted_grams": 5.1
+            }
+          ],
+          "served_grams": 680.0,
+          "taken_grams": 629.9,
+          "wasted_grams": 50.1,
+          "total_grams": 629.9
+        }
+      ]
+    },
+    "takshay": {
+      "name": "takshay",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 201.4,
+              "served_grams": 220.0,
+              "taken_grams": 201.4,
+              "wasted_grams": 18.6
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "tablespoon",
+              "count": 1,
+              "grams": 11.3,
+              "served_grams": 15.0,
+              "taken_grams": 11.3,
+              "wasted_grams": 3.7
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 98.6,
+              "served_grams": 130.0,
+              "taken_grams": 98.6,
+              "wasted_grams": 31.4
+            }
+          ],
+          "served_grams": 365.0,
+          "taken_grams": 311.3,
+          "wasted_grams": 53.7,
+          "total_grams": 311.3
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "cup",
+              "count": 2,
+              "grams": 299.1,
+              "served_grams": 300.0,
+              "taken_grams": 299.1,
+              "wasted_grams": 0.9
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bread_slice",
+              "count": 2,
+              "grams": 54.0,
+              "served_grams": 60.0,
+              "taken_grams": 54.0,
+              "wasted_grams": 6.0
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "plate",
+              "count": 2,
+              "grams": 596.2,
+              "served_grams": 600.0,
+              "taken_grams": 596.2,
+              "wasted_grams": 3.8
+            }
+          ],
+          "served_grams": 960.0,
+          "taken_grams": 949.3,
+          "wasted_grams": 10.7,
+          "total_grams": 949.3
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "bhature",
+              "count": 2,
+              "grams": 96.2,
+              "served_grams": 120.0,
+              "taken_grams": 96.2,
+              "wasted_grams": 23.8
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "roti",
+              "count": 2,
+              "grams": 71.7,
+              "served_grams": 90.0,
+              "taken_grams": 71.7,
+              "wasted_grams": 18.3
+            },
+            {
+              "item": "Lemon Water",
+              "category": "drink",
+              "unit": "cup",
+              "count": 1,
+              "grams": 123.6,
+              "served_grams": 150.0,
+              "taken_grams": 123.6,
+              "wasted_grams": 26.4
+            }
+          ],
+          "served_grams": 360.0,
+          "taken_grams": 291.5,
+          "wasted_grams": 68.5,
+          "total_grams": 291.5
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "piece",
+              "count": 2,
+              "grams": 159.6,
+              "served_grams": 200.0,
+              "taken_grams": 159.6,
+              "wasted_grams": 40.4
+            },
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "plate",
+              "count": 2,
+              "grams": 486.5,
+              "served_grams": 600.0,
+              "taken_grams": 486.5,
+              "wasted_grams": 113.5
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 203.7,
+              "served_grams": 240.0,
+              "taken_grams": 203.7,
+              "wasted_grams": 36.3
+            }
+          ],
+          "served_grams": 1040.0,
+          "taken_grams": 849.8,
+          "wasted_grams": 190.2,
+          "total_grams": 849.8
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chicken Hyderabadi Biryani",
+              "category": "rice",
+              "unit": "bowl",
+              "count": 2,
+              "grams": 301.5,
+              "served_grams": 360.0,
+              "taken_grams": 301.5,
+              "wasted_grams": 58.5
+            },
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "scoop",
+              "count": 2,
+              "grams": 86.0,
+              "served_grams": 120.0,
+              "taken_grams": 86.0,
+              "wasted_grams": 34.0
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "tablespoon",
+              "count": 1,
+              "grams": 14.3,
+              "served_grams": 15.0,
+              "taken_grams": 14.3,
+              "wasted_grams": 0.7
+            }
+          ],
+          "served_grams": 495.0,
+          "taken_grams": 401.8,
+          "wasted_grams": 93.2,
+          "total_grams": 401.8
+        }
+      ]
+    },
+    "vaibhav": {
+      "name": "vaibhav",
+      "consumption": [
+        {
+          "date": "2026-09-24",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "katori",
+              "count": 1,
+              "grams": 22.4,
+              "served_grams": 30.0,
+              "taken_grams": 22.4,
+              "wasted_grams": 7.6
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "ladle",
+              "count": 1,
+              "grams": 85.9,
+              "served_grams": 130.0,
+              "taken_grams": 85.9,
+              "wasted_grams": 44.1
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "naan",
+              "count": 2,
+              "grams": 164.9,
+              "served_grams": 180.0,
+              "taken_grams": 164.9,
+              "wasted_grams": 15.1
+            }
+          ],
+          "served_grams": 340.0,
+          "taken_grams": 273.2,
+          "wasted_grams": 66.8,
+          "total_grams": 273.2
+        },
+        {
+          "date": "2026-09-23",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Jalebi rabri",
+              "category": "dessert",
+              "unit": "piece",
+              "count": 1,
+              "grams": 59.5,
+              "served_grams": 60.0,
+              "taken_grams": 59.5,
+              "wasted_grams": 0.5
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "roti",
+              "count": 1,
+              "grams": 37.1,
+              "served_grams": 45.0,
+              "taken_grams": 37.1,
+              "wasted_grams": 7.9
+            },
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "katori",
+              "count": 2,
+              "grams": 207.1,
+              "served_grams": 240.0,
+              "taken_grams": 207.1,
+              "wasted_grams": 32.9
+            }
+          ],
+          "served_grams": 345.0,
+          "taken_grams": 303.7,
+          "wasted_grams": 41.3,
+          "total_grams": 303.7
+        },
+        {
+          "date": "2026-09-22",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "katori",
+              "count": 2,
+              "grams": 232.8,
+              "served_grams": 240.0,
+              "taken_grams": 232.8,
+              "wasted_grams": 7.2
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "teaspoon",
+              "count": 2,
+              "grams": 9.8,
+              "served_grams": 10.0,
+              "taken_grams": 9.8,
+              "wasted_grams": 0.2
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "ladle",
+              "count": 2,
+              "grams": 188.7,
+              "served_grams": 260.0,
+              "taken_grams": 188.7,
+              "wasted_grams": 71.3
+            }
+          ],
+          "served_grams": 510.0,
+          "taken_grams": 431.3,
+          "wasted_grams": 78.7,
+          "total_grams": 431.3
+        },
+        {
+          "date": "2026-09-21",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Shahi Paneer",
+              "category": "curry",
+              "unit": "piece",
+              "count": 1,
+              "grams": 97.0,
+              "served_grams": 100.0,
+              "taken_grams": 97.0,
+              "wasted_grams": 3.0
+            },
+            {
+              "item": "Plain roti + Butter Roti",
+              "category": "bread",
+              "unit": "bread_slice",
+              "count": 2,
+              "grams": 52.8,
+              "served_grams": 60.0,
+              "taken_grams": 52.8,
+              "wasted_grams": 7.2
+            },
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "roti",
+              "count": 1,
+              "grams": 39.9,
+              "served_grams": 45.0,
+              "taken_grams": 39.9,
+              "wasted_grams": 5.1
+            }
+          ],
+          "served_grams": 205.0,
+          "taken_grams": 189.7,
+          "wasted_grams": 15.3,
+          "total_grams": 189.7
+        },
+        {
+          "date": "2026-09-20",
+          "meal": "DINNER",
+          "items": [
+            {
+              "item": "Methi Parantha",
+              "category": "bread",
+              "unit": "roti",
+              "count": 1,
+              "grams": 40.6,
+              "served_grams": 45.0,
+              "taken_grams": 40.6,
+              "wasted_grams": 4.4
+            },
+            {
+              "item": "Veg pulav",
+              "category": "rice",
+              "unit": "katori",
+              "count": 2,
+              "grams": 151.7,
+              "served_grams": 180.0,
+              "taken_grams": 151.7,
+              "wasted_grams": 28.3
+            },
+            {
+              "item": "Chutney",
+              "category": "chutney_pickle",
+              "unit": "katori",
+              "count": 2,
+              "grams": 59.5,
+              "served_grams": 60.0,
+              "taken_grams": 59.5,
+              "wasted_grams": 0.5
+            }
+          ],
+          "served_grams": 285.0,
+          "taken_grams": 251.8,
+          "wasted_grams": 33.2,
+          "total_grams": 251.8
+        }
+      ]
+    }
+  }
+}

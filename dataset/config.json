@@ -1,0 +1,11 @@
+{
+  "project": "Savor",
+  "split_directories": {
+    "train": "dinner-2026-09-25-train",
+    "test": "dinner-2026-09-25-test"
+  },
+  "menu_config": "menu_config.json",
+  "student_history": "student_history.json",
+  "training_weights": "train_item_weights.json",
+  "weight_label_note": "Per-item weights allocate plate scale totals by pixel area and density priors; they are not direct item measurements."
+}

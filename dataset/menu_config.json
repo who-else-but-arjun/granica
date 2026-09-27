@@ -1,0 +1,2712 @@
+{
+  "mess": "Barak",
+  "month": "September",
+  "source": "dataset/Barak_september_Menu.pdf",
+  "note": "Hand-curated static config transcribed from the printed menu. Every downstream stage (Qwen-VL grounding, SAM, Qwen recommendation) is restricted to the item names listed here.",
+  "days": {
+    "MONDAY": {
+      "BREAKFAST": [
+        {
+          "name": "Pav Bhaji",
+          "as_printed": "Pav Bhaji",
+          "variants": [
+            "Pav Bhaji"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Veg Uttpam",
+          "as_printed": "Veg Uttpam",
+          "variants": [
+            "Veg Uttpam"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Banana",
+          "as_printed": "Banana/seasonal fruit",
+          "variants": [
+            "Banana",
+            "seasonal fruit"
+          ],
+          "category": "fruit",
+          "units": [
+            "piece",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "piece": 120.0,
+            "bowl": 150.0
+          }
+        },
+        {
+          "name": "Egg bhurji",
+          "as_printed": "Egg bhurji/ Paneer Bhurji/ Boiled Egg",
+          "variants": [
+            "Egg bhurji",
+            "Paneer Bhurji",
+            "Boiled Egg"
+          ],
+          "category": "egg",
+          "units": [
+            "piece",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "piece": 50.0,
+            "katori": 90.0
+          }
+        }
+      ],
+      "LUNCH": [
+        {
+          "name": "Aloo long beans",
+          "as_printed": "Aloo long beans",
+          "variants": [
+            "Aloo long beans"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Rajma Masala",
+          "as_printed": "Rajma Masala",
+          "variants": [
+            "Rajma Masala"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Arhar Dal",
+          "as_printed": "Arhar Dal",
+          "variants": [
+            "Arhar Dal"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Lassi",
+          "as_printed": "Lassi",
+          "variants": [
+            "Lassi"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Boondi raita",
+          "as_printed": "Boondi raita/curd",
+          "variants": [
+            "Boondi raita",
+            "curd"
+          ],
+          "category": "raita_curd",
+          "units": [
+            "katori",
+            "cup",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "katori": 100.0,
+            "cup": 150.0,
+            "bowl": 200.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Jeera Rice",
+          "as_printed": "Jeera Rice",
+          "variants": [
+            "Jeera Rice"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        }
+      ],
+      "DINNER": [
+        {
+          "name": "Mix Veg",
+          "as_printed": "Mix Veg",
+          "variants": [
+            "Mix Veg"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Soya do pyaza",
+          "as_printed": "Soya do pyaza",
+          "variants": [
+            "Soya do pyaza"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Dal makhani",
+          "as_printed": "Dal makhani",
+          "variants": [
+            "Dal makhani"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Lemon water",
+          "as_printed": "Lemon water",
+          "variants": [
+            "Lemon water"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Pickle",
+          "as_printed": "Pickle",
+          "variants": [
+            "Pickle"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        }
+      ]
+    },
+    "TUESDAY": {
+      "BREAKFAST": [
+        {
+          "name": "Veg Roll",
+          "as_printed": "Veg Roll/Dhokla",
+          "variants": [
+            "Veg Roll",
+            "Dhokla"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Upma",
+          "as_printed": "Upma",
+          "variants": [
+            "Upma"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Water Melon",
+          "as_printed": "Water Melon/seasonal fruit",
+          "variants": [
+            "Water Melon",
+            "seasonal fruit"
+          ],
+          "category": "fruit",
+          "units": [
+            "piece",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "piece": 120.0,
+            "bowl": 150.0
+          }
+        },
+        {
+          "name": "Egg bhurji",
+          "as_printed": "Egg bhurji/ Paneer Bhurji/ Boiled Egg",
+          "variants": [
+            "Egg bhurji",
+            "Paneer Bhurji",
+            "Boiled Egg"
+          ],
+          "category": "egg",
+          "units": [
+            "piece",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "piece": 50.0,
+            "katori": 90.0
+          }
+        }
+      ],
+      "LUNCH": [
+        {
+          "name": "kadhi pakoda",
+          "as_printed": "kadhi pakoda",
+          "variants": [
+            "kadhi pakoda"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Chilli potato",
+          "as_printed": "Chilli potato",
+          "variants": [
+            "Chilli potato"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Dal Tadka",
+          "as_printed": "Dal Tadka",
+          "variants": [
+            "Dal Tadka"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Plain Roti + Butter Roti",
+          "as_printed": "Plain Roti + Butter Roti",
+          "variants": [
+            "Plain Roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Boondi Raita",
+          "as_printed": "Boondi Raita / Curd",
+          "variants": [
+            "Boondi Raita",
+            "Curd"
+          ],
+          "category": "raita_curd",
+          "units": [
+            "katori",
+            "cup",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "katori": 100.0,
+            "cup": 150.0,
+            "bowl": 200.0
+          }
+        },
+        {
+          "name": "Butter Milk",
+          "as_printed": "Butter Milk",
+          "variants": [
+            "Butter Milk"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        }
+      ],
+      "DINNER": [
+        {
+          "name": "chole masala and bhature",
+          "as_printed": "chole masala and bhature",
+          "variants": [
+            "chole masala and bhature"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Tawa veg",
+          "as_printed": "Tawa veg",
+          "variants": [
+            "Tawa veg"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Lemon water",
+          "as_printed": "Lemon water",
+          "variants": [
+            "Lemon water"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Dal Maharani",
+          "as_printed": "Dal Maharani",
+          "variants": [
+            "Dal Maharani"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "BREAKFAST": [
+        {
+          "name": "Idly",
+          "as_printed": "Idly/Masala Idly, coconut chutney + sambar",
+          "variants": [
+            "Idly",
+            "Masala Idly, coconut chutney + sambar"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Bread Pakoda",
+          "as_printed": "Bread Pakoda",
+          "variants": [
+            "Bread Pakoda"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Pear",
+          "as_printed": "Pear/seasonal fruit",
+          "variants": [
+            "Pear",
+            "seasonal fruit"
+          ],
+          "category": "fruit",
+          "units": [
+            "piece",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "piece": 120.0,
+            "bowl": 150.0
+          }
+        },
+        {
+          "name": "Egg bhurji",
+          "as_printed": "Egg bhurji / Sweet Corn / Boiled Egg",
+          "variants": [
+            "Egg bhurji",
+            "Sweet Corn",
+            "Boiled Egg"
+          ],
+          "category": "egg",
+          "units": [
+            "piece",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "piece": 50.0,
+            "katori": 90.0
+          }
+        }
+      ],
+      "LUNCH": [
+        {
+          "name": "Jeera aloo",
+          "as_printed": "Jeera aloo",
+          "variants": [
+            "Jeera aloo"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "soya curry",
+          "as_printed": "soya curry",
+          "variants": [
+            "soya curry"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Chana dal",
+          "as_printed": "Chana dal",
+          "variants": [
+            "Chana dal"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Curd",
+          "as_printed": "Curd/ dahi wada",
+          "variants": [
+            "Curd",
+            "dahi wada"
+          ],
+          "category": "raita_curd",
+          "units": [
+            "katori",
+            "cup",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "katori": 100.0,
+            "cup": 150.0,
+            "bowl": 200.0
+          }
+        },
+        {
+          "name": "Tawa Naan",
+          "as_printed": "Tawa Naan",
+          "variants": [
+            "Tawa Naan"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Sweet lassi",
+          "as_printed": "Sweet lassi",
+          "variants": [
+            "Sweet lassi"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        }
+      ],
+      "DINNER": [
+        {
+          "name": "Kadai Paneer",
+          "as_printed": "Kadai Paneer/ kadhai Chicken",
+          "variants": [
+            "Kadai Paneer",
+            "kadhai Chicken"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Mix Dal",
+          "as_printed": "Mix Dal",
+          "variants": [
+            "Mix Dal"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Dum Birayani",
+          "as_printed": "Dum Birayani",
+          "variants": [
+            "Dum Birayani"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        },
+        {
+          "name": "Gulab Jamun",
+          "as_printed": "Gulab Jamun",
+          "variants": [
+            "Gulab Jamun"
+          ],
+          "category": "dessert",
+          "units": [
+            "piece",
+            "scoop",
+            "bowl",
+            "cup"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "scoop": 60.0,
+            "bowl": 120.0,
+            "cup": 80.0
+          }
+        },
+        {
+          "name": "Raita",
+          "as_printed": "Raita",
+          "variants": [
+            "Raita"
+          ],
+          "category": "raita_curd",
+          "units": [
+            "katori",
+            "cup",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "katori": 100.0,
+            "cup": 150.0,
+            "bowl": 200.0
+          }
+        },
+        {
+          "name": "Tawa Naan",
+          "as_printed": "Tawa Naan",
+          "variants": [
+            "Tawa Naan"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        }
+      ]
+    },
+    "THURSDAY": {
+      "BREAKFAST": [
+        {
+          "name": "Kachori with ghughni",
+          "as_printed": "Kachori with ghughni",
+          "variants": [
+            "Kachori with ghughni"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Poha",
+          "as_printed": "Poha",
+          "variants": [
+            "Poha"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Pine Apple",
+          "as_printed": "Pine Apple/seasonal fruit",
+          "variants": [
+            "Pine Apple",
+            "seasonal fruit"
+          ],
+          "category": "fruit",
+          "units": [
+            "piece",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "piece": 120.0,
+            "bowl": 150.0
+          }
+        },
+        {
+          "name": "Egg Bhurji",
+          "as_printed": "Egg Bhurji/Paneer Bhurji/ Boiled Egg",
+          "variants": [
+            "Egg Bhurji",
+            "Paneer Bhurji",
+            "Boiled Egg"
+          ],
+          "category": "egg",
+          "units": [
+            "piece",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "piece": 50.0,
+            "katori": 90.0
+          }
+        }
+      ],
+      "LUNCH": [
+        {
+          "name": "Black chana masala",
+          "as_printed": "Black chana masala",
+          "variants": [
+            "Black chana masala"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Veg kolhapuri",
+          "as_printed": "Veg kolhapuri",
+          "variants": [
+            "Veg kolhapuri"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "curd",
+          "as_printed": "curd/Kashumber",
+          "variants": [
+            "curd",
+            "Kashumber"
+          ],
+          "category": "raita_curd",
+          "units": [
+            "katori",
+            "cup",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "katori": 100.0,
+            "cup": 150.0,
+            "bowl": 200.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Chass",
+          "as_printed": "Chass",
+          "variants": [
+            "Chass"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Mix Dal",
+          "as_printed": "Mix Dal",
+          "variants": [
+            "Mix Dal"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        }
+      ],
+      "DINNER": [
+        {
+          "name": "Navrathan korma",
+          "as_printed": "Navrathan korma",
+          "variants": [
+            "Navrathan korma"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Bhindi masala",
+          "as_printed": "Bhindi masala",
+          "variants": [
+            "Bhindi masala"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Veg fried rice",
+          "as_printed": "Veg fried rice",
+          "variants": [
+            "Veg fried rice"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        },
+        {
+          "name": "Dal pancham",
+          "as_printed": "Dal pancham",
+          "variants": [
+            "Dal pancham"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Water melon juice",
+          "as_printed": "Water melon juice",
+          "variants": [
+            "Water melon juice"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Pickle",
+          "as_printed": "Pickle",
+          "variants": [
+            "Pickle"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        }
+      ]
+    },
+    "FRIDAY": {
+      "BREAKFAST": [
+        {
+          "name": "Masala Dosa",
+          "as_printed": "Masala Dosa",
+          "variants": [
+            "Masala Dosa"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "veg cheese sandwich",
+          "as_printed": "veg cheese sandwich",
+          "variants": [
+            "veg cheese sandwich"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Apple",
+          "as_printed": "Apple",
+          "variants": [
+            "Apple"
+          ],
+          "category": "fruit",
+          "units": [
+            "piece",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "piece": 120.0,
+            "bowl": 150.0
+          }
+        },
+        {
+          "name": "Egg bhurji",
+          "as_printed": "Egg bhurji / Sweet Corn / Boiled Egg",
+          "variants": [
+            "Egg bhurji",
+            "Sweet Corn",
+            "Boiled Egg"
+          ],
+          "category": "egg",
+          "units": [
+            "piece",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "piece": 50.0,
+            "katori": 90.0
+          }
+        }
+      ],
+      "LUNCH": [
+        {
+          "name": "Cabbage matar",
+          "as_printed": "Cabbage matar",
+          "variants": [
+            "Cabbage matar"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Dum aloo",
+          "as_printed": "Dum aloo",
+          "variants": [
+            "Dum aloo"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Dal fry",
+          "as_printed": "Dal fry",
+          "variants": [
+            "Dal fry"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Lemon Water",
+          "as_printed": "Lemon Water",
+          "variants": [
+            "Lemon Water"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        }
+      ],
+      "DINNER": [
+        {
+          "name": "Chicken Hyderabadi Biryani",
+          "as_printed": "Chicken Hyderabadi Biryani /Shahi Paneer",
+          "variants": [
+            "Chicken Hyderabadi Biryani"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        },
+        {
+          "name": "Shahi Paneer",
+          "as_printed": "Chicken Hyderabadi Biryani /Shahi Paneer",
+          "variants": [
+            "Shahi Paneer"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Veg pulav",
+          "as_printed": "Veg pulav",
+          "variants": [
+            "Veg pulav"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        },
+        {
+          "name": "Chana Daal",
+          "as_printed": "Chana Daal",
+          "variants": [
+            "Chana Daal"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Jalebi rabri",
+          "as_printed": "Jalebi rabri/Shahi Tukda",
+          "variants": [
+            "Jalebi rabri",
+            "Shahi Tukda"
+          ],
+          "category": "dessert",
+          "units": [
+            "piece",
+            "scoop",
+            "bowl",
+            "cup"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "scoop": 60.0,
+            "bowl": 120.0,
+            "cup": 80.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Lemon Water",
+          "as_printed": "Lemon Water",
+          "variants": [
+            "Lemon Water"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Methi Parantha",
+          "as_printed": "Methi Parantha",
+          "variants": [
+            "Methi Parantha"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        }
+      ]
+    },
+    "SATURDAY": {
+      "BREAKFAST": [
+        {
+          "name": "Aloo paratha",
+          "as_printed": "Aloo paratha",
+          "variants": [
+            "Aloo paratha"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Dahi Chiwda",
+          "as_printed": "Dahi Chiwda",
+          "variants": [
+            "Dahi Chiwda"
+          ],
+          "category": "dessert",
+          "units": [
+            "piece",
+            "scoop",
+            "bowl",
+            "cup"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "scoop": 60.0,
+            "bowl": 120.0,
+            "cup": 80.0
+          }
+        },
+        {
+          "name": "Banana",
+          "as_printed": "Banana/seasonal fruit",
+          "variants": [
+            "Banana",
+            "seasonal fruit"
+          ],
+          "category": "fruit",
+          "units": [
+            "piece",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "piece": 120.0,
+            "bowl": 150.0
+          }
+        },
+        {
+          "name": "Egg bhurji",
+          "as_printed": "Egg bhurji/ Paneer Bhurji/ Boiled Egg",
+          "variants": [
+            "Egg bhurji",
+            "Paneer Bhurji",
+            "Boiled Egg"
+          ],
+          "category": "egg",
+          "units": [
+            "piece",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "piece": 50.0,
+            "katori": 90.0
+          }
+        }
+      ],
+      "LUNCH": [
+        {
+          "name": "Malai",
+          "as_printed": "Malai/corn kofta",
+          "variants": [
+            "Malai",
+            "corn kofta"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Bhujia",
+          "as_printed": "Bhujia",
+          "variants": [
+            "Bhujia"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Dal Tadka",
+          "as_printed": "Dal Tadka",
+          "variants": [
+            "Dal Tadka"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Plain Roti + Butter Roti",
+          "as_printed": "Plain Roti + Butter Roti",
+          "variants": [
+            "Plain Roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Lemon water",
+          "as_printed": "Lemon water/Aam Panna",
+          "variants": [
+            "Lemon water",
+            "Aam Panna"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Curd",
+          "as_printed": "Curd/ Boondi Raita",
+          "variants": [
+            "Curd",
+            "Boondi Raita"
+          ],
+          "category": "raita_curd",
+          "units": [
+            "katori",
+            "cup",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "katori": 100.0,
+            "cup": 150.0,
+            "bowl": 200.0
+          }
+        },
+        {
+          "name": "Vegetable Khichdi",
+          "as_printed": "Vegetable Khichdi",
+          "variants": [
+            "Vegetable Khichdi"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        }
+      ],
+      "DINNER": [
+        {
+          "name": "Puri+ Aloo Matar Green",
+          "as_printed": "Puri+ Aloo Matar Green",
+          "variants": [
+            "Puri+ Aloo Matar Green"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Aloo Parwal Bhaji",
+          "as_printed": "Aloo Parwal Bhaji",
+          "variants": [
+            "Aloo Parwal Bhaji"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Masoor Dal",
+          "as_printed": "Masoor Dal",
+          "variants": [
+            "Masoor Dal"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Waternmelon Juice",
+          "as_printed": "Waternmelon Juice",
+          "variants": [
+            "Waternmelon Juice"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Plain Roti + Butter Roti",
+          "as_printed": "Plain Roti + Butter Roti",
+          "variants": [
+            "Plain Roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        }
+      ]
+    },
+    "SUNDAY": {
+      "BREAKFAST": [
+        {
+          "name": "mysore Masala Dosa",
+          "as_printed": "mysore Masala Dosa",
+          "variants": [
+            "mysore Masala Dosa"
+          ],
+          "category": "snack",
+          "units": [
+            "piece",
+            "plate"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "plate": 120.0
+          }
+        },
+        {
+          "name": "Macroni",
+          "as_printed": "Macroni / Masala Dalia",
+          "variants": [
+            "Macroni",
+            "Masala Dalia"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        },
+        {
+          "name": "Pine Apple",
+          "as_printed": "Pine Apple/seasonal fruit",
+          "variants": [
+            "Pine Apple",
+            "seasonal fruit"
+          ],
+          "category": "fruit",
+          "units": [
+            "piece",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "piece": 120.0,
+            "bowl": 150.0
+          }
+        },
+        {
+          "name": "Egg bhurji",
+          "as_printed": "Egg bhurji/ Boiled Egg/ Sweet Corn",
+          "variants": [
+            "Egg bhurji",
+            "Boiled Egg",
+            "Sweet Corn"
+          ],
+          "category": "egg",
+          "units": [
+            "piece",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "piece": 50.0,
+            "katori": 90.0
+          }
+        }
+      ],
+      "LUNCH": [
+        {
+          "name": "Chole masala",
+          "as_printed": "Chole masala",
+          "variants": [
+            "Chole masala"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "aloo choka",
+          "as_printed": "aloo choka/Saag",
+          "variants": [
+            "aloo choka",
+            "Saag"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Arhar Dal",
+          "as_printed": "Arhar Dal",
+          "variants": [
+            "Arhar Dal"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Butter Milk",
+          "as_printed": "Butter Milk",
+          "variants": [
+            "Butter Milk"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Curd",
+          "as_printed": "Curd / Boondi Raita",
+          "variants": [
+            "Curd",
+            "Boondi Raita"
+          ],
+          "category": "raita_curd",
+          "units": [
+            "katori",
+            "cup",
+            "bowl"
+          ],
+          "grams_per_unit": {
+            "katori": 100.0,
+            "cup": 150.0,
+            "bowl": 200.0
+          }
+        },
+        {
+          "name": "Veg Biryani",
+          "as_printed": "Veg Biryani",
+          "variants": [
+            "Veg Biryani"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        }
+      ],
+      "DINNER": [
+        {
+          "name": "Chicken Butter Masala",
+          "as_printed": "Chicken Butter Masala/Paneer Butter Masala",
+          "variants": [
+            "Chicken Butter Masala",
+            "Paneer Butter Masala"
+          ],
+          "category": "curry",
+          "units": [
+            "katori",
+            "bowl",
+            "piece",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "piece": 100.0,
+            "ladle": 110.0
+          }
+        },
+        {
+          "name": "Dal Fry",
+          "as_printed": "Dal Fry",
+          "variants": [
+            "Dal Fry"
+          ],
+          "category": "dal",
+          "units": [
+            "katori",
+            "bowl",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 120.0,
+            "bowl": 200.0,
+            "ladle": 100.0
+          }
+        },
+        {
+          "name": "Veg Hyderabadi Biryani",
+          "as_printed": "Veg Hyderabadi Biryani",
+          "variants": [
+            "Veg Hyderabadi Biryani"
+          ],
+          "category": "rice",
+          "units": [
+            "katori",
+            "bowl",
+            "plate",
+            "ladle"
+          ],
+          "grams_per_unit": {
+            "katori": 90.0,
+            "bowl": 180.0,
+            "plate": 300.0,
+            "ladle": 130.0
+          }
+        },
+        {
+          "name": "Ice Cream",
+          "as_printed": "Ice Cream",
+          "variants": [
+            "Ice Cream"
+          ],
+          "category": "dessert",
+          "units": [
+            "piece",
+            "scoop",
+            "bowl",
+            "cup"
+          ],
+          "grams_per_unit": {
+            "piece": 60.0,
+            "scoop": 60.0,
+            "bowl": 120.0,
+            "cup": 80.0
+          }
+        },
+        {
+          "name": "Nimboo Pani",
+          "as_printed": "Nimboo Pani",
+          "variants": [
+            "Nimboo Pani"
+          ],
+          "category": "drink",
+          "units": [
+            "glass",
+            "cup",
+            "bottle"
+          ],
+          "grams_per_unit": {
+            "glass": 200.0,
+            "cup": 150.0,
+            "bottle": 500.0
+          }
+        },
+        {
+          "name": "Chutney",
+          "as_printed": "Chutney",
+          "variants": [
+            "Chutney"
+          ],
+          "category": "chutney_pickle",
+          "units": [
+            "teaspoon",
+            "tablespoon",
+            "katori"
+          ],
+          "grams_per_unit": {
+            "teaspoon": 5.0,
+            "tablespoon": 15.0,
+            "katori": 30.0
+          }
+        },
+        {
+          "name": "Plain roti + Butter Roti",
+          "as_printed": "Plain roti + Butter Roti",
+          "variants": [
+            "Plain roti + Butter Roti"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        },
+        {
+          "name": "Butter Naan",
+          "as_printed": "Butter Naan",
+          "variants": [
+            "Butter Naan"
+          ],
+          "category": "bread",
+          "units": [
+            "roti",
+            "paratha",
+            "naan",
+            "bhature",
+            "bread_slice"
+          ],
+          "grams_per_unit": {
+            "roti": 45.0,
+            "paratha": 80.0,
+            "naan": 90.0,
+            "bhature": 60.0,
+            "bread_slice": 30.0
+          }
+        }
+      ]
+    }
+  },
+  "categories": {
+    "rice": {
+      "description": "Rice based dishes - plain rice, jeera rice, pulao/pulav, biryani, khichdi, dalia.",
+      "units": [
+        "katori",
+        "bowl",
+        "plate",
+        "ladle"
+      ]
+    },
+    "bread": {
+      "description": "Flatbreads and breads - roti, chapati, butter roti, naan, paratha, bhature, puri.",
+      "units": [
+        "roti",
+        "paratha",
+        "naan",
+        "bhature",
+        "bread_slice"
+      ]
+    },
+    "dal": {
+      "description": "Lentils and pulse gravies - dal fry/tadka/makhani, chana dal, arhar dal, chole, rajma.",
+      "units": [
+        "katori",
+        "bowl",
+        "ladle"
+      ]
+    },
+    "curry": {
+      "description": "Thick vegetable / paneer / chicken gravies served in a katori.",
+      "units": [
+        "katori",
+        "bowl",
+        "piece",
+        "ladle"
+      ]
+    },
+    "raita_curd": {
+      "description": "Curd, dahi, raita and boondi raita (mess serves 100 ml curd, 150 ml raita).",
+      "units": [
+        "katori",
+        "cup",
+        "bowl"
+      ]
+    },
+    "chutney_pickle": {
+      "description": "Chutney and pickle accompaniments.",
+      "units": [
+        "teaspoon",
+        "tablespoon",
+        "katori"
+      ]
+    },
+    "egg": {
+      "description": "Whole boiled egg and egg bhurji.",
+      "units": [
+        "piece",
+        "katori"
+      ]
+    },
+    "snack": {
+      "description": "Fried or steamed breakfast items - dosa, idly, poha, pakoda, sandwich.",
+      "units": [
+        "piece",
+        "plate"
+      ]
+    },
+    "dessert": {
+      "description": "Sweet items - jalebi rabri, shahi tukda, gulab jamun, ice cream.",
+      "units": [
+        "piece",
+        "scoop",
+        "bowl",
+        "cup"
+      ]
+    },
+    "drink": {
+      "description": "Drinks - lassi, chaas, butter milk, lemon water, juices. Mess serves 200 ml.",
+      "units": [
+        "glass",
+        "cup",
+        "bottle"
+      ]
+    },
+    "salad": {
+      "description": "Raw salad, cucumber, carrot, tomato, beetroot, onion, chilli, lemon.",
+      "units": [
+        "katori",
+        "plate"
+      ]
+    },
+    "fruit": {
+      "description": "Fresh or seasonal fruit.",
+      "units": [
+        "piece",
+        "bowl"
+      ]
+    },
+    "boilerplate": {
+      "description": "Items the mess serves every day regardless of the day of week.",
+      "units": [
+        "roti",
+        "katori",
+        "glass"
+      ]
+    }
+  },
+  "serving_rules": [
+    "1. Breakfast: Subscribers can choose between a Boiled Egg (1 pc) or egg bhurji or Paneer bhurji. Also served daily are Milk (200",
+    "ml), Tea/Coffee (200 ml), bread with Jam and Butter, and extras like sprouts and boiled pulses along with ginger, tomato, chilli",
+    "and pickle.",
+    "2. Lunch/Dinner: Chapati (with and without ghee) and Plain Rice will be served daily. Non-spicy Jain food, Salad",
+    "(Cucumber+Carrot+Tomato+Beetroot), Chilli, Onion, and Lemon and fresh green chutney will be available daily.",
+    "3. Quantity for Drinks in Lunch/Dinner will be 200 ml. Quantity for curd and raita will be 100 and 150 ml respectively.",
+    "4. Curd to be always served with Parathas in breakfast.",
+    "Holiday Timings: Breakfast (8AM - 10:15 AM), Lunch (12.15 - 2.30 PM), Dinner (8PM - 10:00 PM)"
+  ],
+  "daily_extras": [
+    {
+      "name": "Chapati",
+      "category": "bread",
+      "variants": [
+        "Chapati (with ghee)",
+        "Chapati (without ghee)"
+      ]
+    },
+    {
+      "name": "Plain Rice",
+      "category": "rice"
+    },
+    {
+      "name": "Salad",
+      "category": "salad",
+      "variants": [
+        "Cucumber+Carrot+Tomato+Beetroot"
+      ]
+    },
+    {
+      "name": "Chilli",
+      "category": "salad"
+    },
+    {
+      "name": "Onion",
+      "category": "salad"
+    },
+    {
+      "name": "Lemon",
+      "category": "salad"
+    },
+    {
+      "name": "Fresh green chutney",
+      "category": "chutney_pickle"
+    }
+  ],
+  "volume_rules": {
+    "drinks_ml": 200,
+    "curd_ml": 100,
+    "raita_ml": 150
+  }
+}

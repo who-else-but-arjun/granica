@@ -1,0 +1,13 @@
+torch
+torchvision
+opencv-python
+opencv-contrib-python
+insightface
+onnxruntime
+transformers[torch]
+qwen-vl-utils
+ultralytics
+pdfplumber
+pillow
+numpy
+streamlit

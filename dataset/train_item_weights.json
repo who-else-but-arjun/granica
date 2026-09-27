@@ -1,0 +1,302 @@
+{
+  "source": "scale-anchored per-item allocation; not individually weighed",
+  "items": [
+    {
+      "plate": "train/pre/kunj-230103056",
+      "person": "kunj-230103056",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\kunj-230103056.png",
+      "item": "Shahi Paneer",
+      "category": "curry",
+      "pixels": 42874,
+      "grams": 183.9,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/kunj-230103056",
+      "person": "kunj-230103056",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\kunj-230103056.png",
+      "item": "Methi Parantha",
+      "category": "bread",
+      "pixels": 83759,
+      "grams": 224.5,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/kunj-230103056",
+      "person": "kunj-230103056",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\kunj-230103056.png",
+      "item": "Chutney",
+      "category": "chutney_pickle",
+      "pixels": 32701,
+      "grams": 77.9,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/kunj-230103056",
+      "person": "kunj-230103056",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\kunj-230103056.png",
+      "item": "Chana Daal",
+      "category": "dal",
+      "pixels": 42389,
+      "grams": 176.7,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/mithil-230103077",
+      "person": "mithil-230103077",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\mithil-230103077.png",
+      "item": "Jalebi rabri",
+      "category": "dessert",
+      "pixels": 33114,
+      "grams": 129.1,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/mithil-230103077",
+      "person": "mithil-230103077",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\mithil-230103077.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 43423,
+      "grams": 221.7,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/mithil-230103077",
+      "person": "mithil-230103077",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\mithil-230103077.png",
+      "item": "Veg pulav",
+      "category": "rice",
+      "pixels": 95804,
+      "grams": 489.2,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/nitish-230103022",
+      "person": "nitish-230103022",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\nitish-230103022.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 41995,
+      "grams": 163.8,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/nitish-230103022",
+      "person": "nitish-230103022",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\nitish-230103022.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 154671,
+      "grams": 603.2,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\takshay-230102111.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 130624,
+      "grams": 101.6,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/pre/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\takshay-230102111.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 55039,
+      "grams": 42.8,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/pre/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\takshay-230102111.png",
+      "item": "Jalebi rabri",
+      "category": "dessert",
+      "pixels": 130551,
+      "grams": 77.5,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/pre/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\takshay-230102111.png",
+      "item": "Shahi Paneer",
+      "category": "curry",
+      "pixels": 130697,
+      "grams": 133.1,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/pre/vaibhav-230103066",
+      "person": "vaibhav-230103066",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\vaibhav-230103066.png",
+      "item": "Shahi Paneer",
+      "category": "curry",
+      "pixels": 43810,
+      "grams": 489.9,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/pre/vaibhav-230103066",
+      "person": "vaibhav-230103066",
+      "stage": "pre",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\pre\\vaibhav-230103066.png",
+      "item": "Methi Parantha",
+      "category": "bread",
+      "pixels": 44077,
+      "grams": 308.1,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/post/kunj-230103056",
+      "person": "kunj-230103056",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\kunj-230103056.png",
+      "item": "Jalebi rabri",
+      "category": "dessert",
+      "pixels": 26074,
+      "grams": 89.5,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/post/kunj-230103056",
+      "person": "kunj-230103056",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\kunj-230103056.png",
+      "item": "Methi Parantha",
+      "category": "bread",
+      "pixels": 20236,
+      "grams": 74.4,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/post/kunj-230103056",
+      "person": "kunj-230103056",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\kunj-230103056.png",
+      "item": "Chana Daal",
+      "category": "dal",
+      "pixels": 43876,
+      "grams": 251.1,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/post/mithil-230103077",
+      "person": "mithil-230103077",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\mithil-230103077.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 12354,
+      "grams": 183.0,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/post/nitish-230103022",
+      "person": "nitish-230103022",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\nitish-230103022.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 281661,
+      "grams": 265.4,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/post/nitish-230103022",
+      "person": "nitish-230103022",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\nitish-230103022.png",
+      "item": "Chutney",
+      "category": "chutney_pickle",
+      "pixels": 53411,
+      "grams": 36.6,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/post/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\takshay-230102111.png",
+      "item": "Jalebi rabri",
+      "category": "dessert",
+      "pixels": 18890,
+      "grams": 35.4,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/post/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\takshay-230102111.png",
+      "item": "Plain roti + Butter Roti",
+      "category": "bread",
+      "pixels": 45640,
+      "grams": 91.5,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/post/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\takshay-230102111.png",
+      "item": "Chicken Hyderabadi Biryani",
+      "category": "rice",
+      "pixels": 3935,
+      "grams": 9.7,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/post/takshay-230102111",
+      "person": "takshay-230102111",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\takshay-230102111.png",
+      "item": "Chana Daal",
+      "category": "dal",
+      "pixels": 24135,
+      "grams": 75.4,
+      "weight_source": "estimated from scale calibration"
+    },
+    {
+      "plate": "train/post/vaibhav-230103066",
+      "person": "vaibhav-230103066",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\vaibhav-230103066.png",
+      "item": "Shahi Paneer",
+      "category": "curry",
+      "pixels": 153479,
+      "grams": 339.1,
+      "weight_source": "scale-anchored allocation"
+    },
+    {
+      "plate": "train/post/vaibhav-230103066",
+      "person": "vaibhav-230103066",
+      "stage": "post",
+      "image": "C:\\Users\\Arjun\\Desktop\\granica\\dataset\\dinner-2026-09-25-train\\post\\vaibhav-230103066.png",
+      "item": "Methi Parantha",
+      "category": "bread",
+      "pixels": 508247,
+      "grams": 701.9,
+      "weight_source": "scale-anchored allocation"
+    }
+  ]
+}
